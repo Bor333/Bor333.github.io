@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -47,4 +52,26 @@ input, textarea {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.header {
+    background-color: #ccc;
+}
+
+.heading {
+    border: 1px solid red;
+    overflow: hidden;
+}
+.footer {
+    border: 1px solid black;
+}
+
+.menu {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+}
+.new-automation-tools {
+    clear: both;
 }
