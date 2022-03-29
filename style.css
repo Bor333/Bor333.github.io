@@ -67,10 +67,7 @@ input, textarea {
 }
 
 .menu {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #000;
-    float: left;
+
 }
 .new-automation-tools {
     clear: both;
