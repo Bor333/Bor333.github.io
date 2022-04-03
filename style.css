@@ -5,7 +5,6 @@
 
 body {
     font-family: sans-serif;
-    background-color: grey;
     text-align: center;
 }
 
@@ -74,7 +73,7 @@ input, textarea {
 }
 
 .header {
-    background-color: dimgray;
+
 
 }
 
