@@ -11,6 +11,7 @@ body {
 
 .container {
     width: 1140px;
+    box-sizing: border-box;
     margin: 0 auto;
 }
 
@@ -83,7 +84,6 @@ input, textarea {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 100%;
 }
 
 .menu-item {
@@ -101,9 +101,9 @@ input, textarea {
 }
 
 .card-box {
-    width: 359px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card {
