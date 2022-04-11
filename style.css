@@ -41,6 +41,7 @@ body {
     background-repeat: no-repeat;
     background-position: right center;
 }
+
 .top__text {
     width: 425px;
 }
@@ -88,6 +89,7 @@ body {
 
 .what-we-do {
     padding-top: 64px;
+    padding-bottom: 112px;
 }
 
 .heading {
@@ -213,12 +215,80 @@ input, textarea {
     height: 120px;
 }
 
-.contact-list {
-    list-style-type: none;
-}
-
 .footer {
     width: 100%;
+}
+
+.footer-informal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info {
+    padding-top: 91px;
+}
+
+.footer__heading {
+    text-align: left;
+    width: 341px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__text {
+    width: 495px;
+    margin-top: 32px;
+    margin-bottom: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer__button {
+    background: #5A98D0;
+    padding: 15px 80px;
+    margin-top: 180px;
+    margin-bottom: 170px;
+    text-decoration: none;
+    display: inline-block;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.contact_item {
+    padding-left: 20px;
+}
+
+.rights {
+    padding: 64px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 /*Страница контакты*/
