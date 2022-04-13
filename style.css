@@ -8,6 +8,15 @@ body {
     text-align: left;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page {
+    flex-grow: 1;
+}
+
 .top {
     min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
