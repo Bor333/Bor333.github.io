@@ -8,7 +8,12 @@ body {
     text-align: left;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover,  /* при наведении */
+
 button:hover {
     background: lightgreen;
     color: #3a7999;
@@ -298,7 +303,6 @@ input, textarea {
 
 .contact_item {
     padding-left: 20px;
-    text-decoration: none;
     color: #FFFFFF;
 }
 
