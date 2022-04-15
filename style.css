@@ -216,9 +216,10 @@ input, textarea {
 }
 
 .card {
+    height: 480px;
     display: flex;
     flex-direction: column;
-    width: 359px;
+    flex-grow: 1;
     padding: 44px 32px;
     box-sizing: border-box;
     background: #FFFFFF;
@@ -226,11 +227,20 @@ input, textarea {
     border-radius: 10px;
 }
 
+.card-margin {
+    margin-left: 32px;
+}
+
 .card-link {
+    width: 80px;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
     color: #5A98D0;
+}
+
+.card-arrow {
+    margin-left: 15px;
 }
 
 .card-image {
@@ -323,9 +333,11 @@ input, textarea {
     }
 
     .top__info {
-        width: 350px;
         background-size: 44%;
         background-position: right 280px;
+    }
+    .top__text {
+        width: 350px;
     }
 
     .card-box {
@@ -335,6 +347,7 @@ input, textarea {
 
     .card {
         margin-bottom: 32px;
+        max-width: 359px;
     }
 
     .footer__text {
