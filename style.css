@@ -60,7 +60,7 @@ button:hover {
 .top__info {
     padding-top: 115px;
     flex-grow: 1;
-    background-image: url(img/top__back.svg);
+    background-image: url(img/top__back.png);
     background-repeat: no-repeat;
     background-position: right center;
 }
